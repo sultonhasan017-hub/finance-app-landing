@@ -6,6 +6,18 @@
     --white: #ffffff;
 }
 
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+    .hero p {
+        font-size: 0.9rem;
+    }
+    header {
+        padding: 1rem 20px;
+    }
+}
+
 /* 2. Reset Margin & Padding */
 * {
     margin: 0;
